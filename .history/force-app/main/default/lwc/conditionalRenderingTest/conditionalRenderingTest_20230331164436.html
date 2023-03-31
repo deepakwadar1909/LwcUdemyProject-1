@@ -16,13 +16,9 @@
             </template>
             <lightning-input 
                     type="text" 
-                    label="Tyep Hello to see the data" 
-                    onkeyup={changeHandler}>
+                    label="Enter City Name" 
+                    onkeyup={trackHandler}>
                 </lightning-input>
-            <template if:true={helloMethod}>
-                <div>Hurry! you have typed correctly</div>
-            </template>
-            
         </div>
     </lightning-card>
 </template>

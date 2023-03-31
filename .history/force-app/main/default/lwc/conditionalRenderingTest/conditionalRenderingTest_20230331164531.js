@@ -10,8 +10,4 @@ export default class ConditionalRenderingTest extends LightningElement {
     changeHandler(event) {
         this.name = event.target.value
     }
-
-    get helloMethod() {
-        return this.name === 'Hello'
-    }
 }
