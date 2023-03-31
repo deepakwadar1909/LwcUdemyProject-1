@@ -1,0 +1,22 @@
+<template>
+    <!-- One Way Data Binding -->
+    <!-- <div>Hello {fullName}</div> -->
+    <!-- <div>{object.name}</div> -->
+    <!-- Not allowed array access -->
+    <!-- <div>{user[0]}</div> -->
+    <!-- One Way Data Binding -->
+    
+
+     <lightning-card  title="Two Way Data Binding">
+            <div class="slds-m-around_medium">
+                <lightning-input type="text" 
+                label="Enter Course Name" 
+                onkeyup={changeHandler}>
+                </lightning-input>
+            <div>
+                {fullName} is course of {title}
+            </div>
+            </div>
+            
+        </lightning-card>
+</template>
