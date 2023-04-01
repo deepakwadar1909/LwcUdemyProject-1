@@ -15,4 +15,7 @@ export default class ConditionalRenderingTest extends LightningElement {
         return this.name === 'Hello'
     }
 
+    //Falsy Values
+    x = 0;
+    
 }
