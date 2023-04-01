@@ -2,11 +2,11 @@ import { LightningElement, track } from 'lwc';
 
 export default class HelloWorld extends LightningElement{
     /* Data Binding example*/
-    fullName = "Deepak Wadar"
-    jobTitle = "SF Engineer"
+    fullName = "Zero to Hero"
+    title = "AURA"
 
     changeHandler(event) {
-        this.jobTitle = event.target.value
+        this.title = event.target.value
     }
 
     //@track binding
