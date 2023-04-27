@@ -4,14 +4,13 @@ export default class HelloWorld extends LightningElement{
     /* Data Binding example*/
     fullName = "Deepak Wadar"
     jobTitle = "SF Engineer"
-    //areDetailsVisible
+    areDetailsVisible
 
     changeHandler(event) {
         this.jobTitle = event.target.value
-        //this.areDetailsVisible = event.target.checked
     }
 
-
+    
     //@track binding
     @track address = {
         city: "Kolhapur",

@@ -4,11 +4,11 @@ export default class HelloWorld extends LightningElement{
     /* Data Binding example*/
     fullName = "Deepak Wadar"
     jobTitle = "SF Engineer"
-    //areDetailsVisible
+    areDetailsVisible = false;
 
     changeHandler(event) {
         this.jobTitle = event.target.value
-        //this.areDetailsVisible = event.target.checked
+        this.areDetailsVisible = event.target.checked
     }
 
 

@@ -1,0 +1,18 @@
+<template>
+    <h2>Account Datatable</h2>
+    <div style="width: auto;">
+        <template if:true={data}>
+            <lightning-datatable data={data}
+                columns={columns}
+                key-field="Id"
+                sorted-by={sortBy}
+                sorted-direction={sortDirection}
+                onsort={doSorting}
+                hide-checkbox-column="true">
+            </lightning-datatable>
+        </template>
+        <template if:true={error}>
+            {error}
+        </template>
+    </div>
+</template>
