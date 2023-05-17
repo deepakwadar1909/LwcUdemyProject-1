@@ -1,0 +1,16 @@
+/* element, classes, pseudo */
+
+p{
+    color: blueviolet;
+    font-size: 30px;
+    border: 1px solid red;
+}
+
+.user{
+    color: chartreuse;
+    font-size: 20px;
+}
+
+.user:hover{
+    
+}
