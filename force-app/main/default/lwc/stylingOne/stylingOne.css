@@ -1,0 +1,6 @@
+@import 'c/cssSharedLib';
+
+.css{
+    width: 80%;
+    background-color: cadetblue;
+}
