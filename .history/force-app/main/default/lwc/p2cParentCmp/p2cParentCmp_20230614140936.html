@@ -1,0 +1,18 @@
+<template>
+    <!--Example of Simple Data-->
+    <c-p2c-alert-cmp 
+    message="Hurray!! got the data."
+    card-heading="Parent to Child primitive data communication"
+    number = 20
+    is-valid=false
+    ></c-p2c-alert-cmp>
+    
+    <!--Example of Complex Data-->
+    <div class="slds-var-m-bottom_medium">
+    </div>
+    <c-p2c-carousel-cmp carousel-details={carouselData}></c-p2c-carousel-cmp>
+
+    <!--Example of data passing on action-->
+    <lightning-input type="number" label="Enter Percentage"></lightning-input>
+    <c-p2c-progress-cmp></c-p2c-progress-cmp>
+</template>
