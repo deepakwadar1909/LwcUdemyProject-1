@@ -1,0 +1,11 @@
+<template>
+    <lightning-card title="Account Wrapper Class Demo -2" icon-name="custom:custom63">
+        <template if:true={wrapperList.data}>
+            <lightning-accordion class="example-accordion">
+                <template for:each={wrapperList.data for:item="wrap">
+                    
+                </template>
+            </lightning-accordion>
+        </template>
+    </lightning-card>
+</template>
