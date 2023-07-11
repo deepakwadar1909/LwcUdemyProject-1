@@ -1,0 +1,16 @@
+<template>
+    <lightning-card title="Dog API - Get Random Dog Picture">
+        <lightning-layout>
+            <div class="slds-p-around_small">
+                <lightning-button variant="success" label="Generate Random Dog Picture" onclick={handleClick}></lightning-button>
+                <br>
+                <template if:true={imageReady}>
+                    <img src={pictureUrl} height="350" width="350"/>
+                </template>
+                <template if:true={loadingSpinner}>
+                    <lightning-spinner alternative-text="Loading" variant="inverse"
+                </template>
+            </div>
+        </lightning-layout>
+    </lightning-card>
+</template>
