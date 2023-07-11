@@ -1,0 +1,12 @@
+<aura:component implements="force:appHostable, flexipage:availableForAllTypePages,  flexipage:availableForRecordHome" access="global">
+    <aura:attribute name="name" type="string"/>
+    <aura:attribute city="city" type="string"/>
+
+    <lightning:card  title="Parent Aura Component" class="slds-m-bottom_small">
+        <div class="slds-p-horizontal_small">
+            <lightning:input name="name" value="{!v.name}" placeholder="type name"/>
+            <lightning:input name="city" value="{!v.city}" placeholder="type city"/>
+            <<lightning-button variant='brand' label='Call LWC Method' onclick="{! c.handleLwcMethodCall}" class="slds-align slds-m-top_small"/>
+        </div>
+    </lightning:card>
+</aura:component>

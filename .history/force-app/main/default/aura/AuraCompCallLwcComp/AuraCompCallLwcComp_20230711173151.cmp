@@ -1,0 +1,6 @@
+<aura:component implements="force:appHostable, flexipage:availableForAllPageTypes, flexipage:availableForRecordHome, force:hadRecordId, force:lightningQuickAction" access="global">
+    <div class="slds-box">
+        <lightning-button variant='brand' label='Call LWC Function' onclick="{!c.handleOnClick}"/>
+    </div>
+    <c:callLwcComponentFromAura aura:id="callLwcComponentFromAura"></c:callLwcComponentFromAura>
+</aura:component>
