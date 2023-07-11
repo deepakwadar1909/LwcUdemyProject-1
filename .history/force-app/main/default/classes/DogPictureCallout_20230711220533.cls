@@ -1,0 +1,9 @@
+public with sharing class DogPictureCallout {
+    @AuraEnabled
+    public static String getDogPicture(){
+        Http http =new Http();
+        HttpRequest req = new HttpRequest();
+        req.setEndpoint('callout:DogPictureApi');
+
+    }
+}

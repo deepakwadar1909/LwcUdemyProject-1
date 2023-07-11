@@ -1,0 +1,18 @@
+<template>
+    <lightning-card title="Get My IP Address">
+        <h3 slot="title">
+            <lightning-icon icon-name="utility:connect_apps" size="small">
+                MY IP
+            </lightning-icon>
+        </h3>
+        <div slot="footer">
+
+        </div>
+        <div class="slds-p-around_medium lgc-bg">
+            <lightning-button label="Get My IP" onclick={getIP}></lightning-button>
+        </div>
+        <div class="slds-p-around_medium lgc-bg">
+            <lightning-textarea readonly value={myIp} rows
+        </div>
+    </lightning-card>
+</template>
