@@ -1,0 +1,4 @@
+<aura:component>
+    <aura:registerEvent name="cmpEvent" type="c:CompEventTest"/>
+    <lightning:button label="fireComponent" press="{!c.fireComponentEvent}"/>
+</aura:component>

@@ -1,0 +1,5 @@
+<aura:component>
+    <aura:registerEvent name="cmpEvent" type="c:componentEvent"/>
+
+    <ui:button label=""
+</aura:component>	

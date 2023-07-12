@@ -1,0 +1,10 @@
+<aura:component>
+    <aura:attribute name="firstName" type="String"/>
+    <aura:attribute name="lastName" type="String"/>
+
+    <div class="slds-m-around_xx-large">
+        <div class="Container-fluid">
+
+        </div>
+    </div>
+</aura:component>	

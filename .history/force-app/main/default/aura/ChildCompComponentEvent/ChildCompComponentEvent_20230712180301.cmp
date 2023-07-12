@@ -1,0 +1,3 @@
+<aura:component>
+    <aura:registerEvent name="cmpEvent" type="c:componentEvent"
+</aura:component>	

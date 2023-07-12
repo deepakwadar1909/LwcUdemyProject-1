@@ -1,0 +1,9 @@
+<aura:component>
+    <aura:attribute name="messageFromEvent" type="String"/>
+
+    <aura:handler name="cmpEvent" event="c:componentEvent" action="{!c.handleComponentEvent}"/>
+
+    <c:childCompComponentEvent />
+
+    <p>{!v.messageFromEvent}</p>
+</aura:component>

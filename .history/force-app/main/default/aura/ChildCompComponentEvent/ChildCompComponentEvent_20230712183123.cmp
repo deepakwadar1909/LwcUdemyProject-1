@@ -1,0 +1,5 @@
+<aura:component>
+    <aura:registerEvent name="cmpEvent" type="c:ComponentEvent"/>
+
+    <ui:button label="fireComponent" press="{!c.fireComponentEvent}"/>
+</aura:component>

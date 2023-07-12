@@ -1,0 +1,13 @@
+<!--SF Hustler YT-->
+<template>
+    <lightning-card title="Parent Component LWC" icon-name="standard:account">
+        <p class="slds-text-align_center">Count : {countValue}</p>
+    </lightning-card>
+
+    <!--Calling Child LWC Component-->
+    <!--Calling events from child use on-->
+    <c-sh-yt-child-lwc
+        onsubevent={handleDecrement}
+        onaddevent={handleIncrement}
+    ></c-sh-yt-child-lwc>
+</template>

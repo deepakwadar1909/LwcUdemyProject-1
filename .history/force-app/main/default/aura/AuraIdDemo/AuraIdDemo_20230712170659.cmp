@@ -1,0 +1,8 @@
+<aura:component>
+    <aura:attribute name="firstName" type="String"/>
+    <aura:attribute name="lastName" type="String"/>
+
+    <div class="">
+
+    </div>
+</aura:component>	
