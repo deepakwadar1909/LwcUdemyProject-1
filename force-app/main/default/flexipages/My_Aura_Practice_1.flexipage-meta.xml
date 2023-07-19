@@ -27,6 +27,12 @@
                 <identifier>c_ParentCompComponentEvent</identifier>
             </componentInstance>
         </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>ParentChildAppEventContainer</componentName>
+                <identifier>c_ParentChildAppEventContainer</identifier>
+            </componentInstance>
+        </itemInstances>
         <name>region3</name>
         <type>Region</type>
     </flexiPageRegions>
