@@ -1,0 +1,17 @@
+<apex:page showHeader="false" sidebar="false">
+    <apex:includeLightning/>
+    <div id="LightningComponentid"/>
+    <script>
+        $Lightning.use("c:helloLwcTovf", function(){
+            $Lightning.createComponent("c:helloCompForLwcToVF", {
+              {
+
+              },
+              "LightningComponentid",
+              function(cmp){
+                console.log('');
+              }
+            })
+        })
+    </script>
+</apex:page>

@@ -1,0 +1,9 @@
+<apex:page showHeader="false" sidebar="false">
+    <apex:includeLightning/>
+    <div id="LightningComponentid"/>
+    <script>
+        $Lightning.use("c:helloCompForLwcToVF", function(){
+            $Lightning.createComponent
+        })
+    </script>
+</apex:page>
