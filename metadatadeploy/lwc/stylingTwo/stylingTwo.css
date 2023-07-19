@@ -1,0 +1,6 @@
+@import 'c/cssSharedLib';
+
+.html{
+    width: 90%;
+    background-color: aquamarine;
+}

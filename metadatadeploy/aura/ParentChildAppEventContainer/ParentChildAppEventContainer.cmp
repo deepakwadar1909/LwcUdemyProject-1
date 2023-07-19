@@ -1,0 +1,6 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,force:lightningQuickAction" access="global">
+	<lightning:card title="Container-Parent and Child">
+        <c:ParentCompOfApplicationEvent/>   
+        <c:ChildCompOfApplicationEvent/>
+    </lightning:card>   
+</aura:component>
