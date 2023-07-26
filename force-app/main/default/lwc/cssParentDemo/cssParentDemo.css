@@ -1,0 +1,11 @@
+h1{
+    font-size: 30px;
+    color: red;
+}
+
+/* A Parent comp CSS can style a host element(c-css-child) */
+/* c-css-child-demo{
+    display: block;
+    background-color: aquamarine;
+    color: blueviolet;
+} */

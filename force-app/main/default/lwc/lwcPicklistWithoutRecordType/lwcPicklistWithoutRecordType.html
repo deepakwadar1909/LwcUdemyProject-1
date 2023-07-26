@@ -1,0 +1,12 @@
+<template>
+    <lightning-card title="Picklist Value Without Recordtype">
+        <div class="slds-m-around_medium">
+            <template if:true={leadSourceValues.data}>
+                <lightning-combobox name="LeadSource" label="Lead Source" value={value}
+                options={leadSourceValues.data.values} onchange={handleChange}>
+            </lightning-combobox>
+            </template>
+            <p>Selected value is: {value}</p>
+        </div>
+    </lightning-card>
+</template>
