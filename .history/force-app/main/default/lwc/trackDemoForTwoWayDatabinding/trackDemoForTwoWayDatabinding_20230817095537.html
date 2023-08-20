@@ -1,0 +1,29 @@
+<template>
+    <lightning-card title="Two Way Data Binding With track" icon-name="custom:custom2">
+        <hr/>
+        <!--First Input box-->
+        <div class="slds-var-m-around_medium">
+            <lightning-input
+            type="text"
+            name="fullName"
+            label="Enter the Name"
+            onkeyup={changeHandler}
+            value={fullName}>
+            </lightning-input>
+        </div>
+        <!--Second input box-->
+        <div class="slds-var-m-around_medium">
+            <lightning-input
+            type="text"
+            name="title"
+            label="Enter the Title"
+            onkeyup={changeHandler}
+            value={title}>
+            </lightning-input>
+        </div>
+        <!--Result binding-->
+        <div class="slds-var-p-around_medium">
+            <h3>My name is {fullName} and my title is {title}</h3>
+        </div>
+    </lightning-card>
+</template>
